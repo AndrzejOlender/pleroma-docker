@@ -33,4 +33,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ${{ env.LATEST_TAG }}
+          tags: andrzejolender/${{ env.LATEST_TAG }}
