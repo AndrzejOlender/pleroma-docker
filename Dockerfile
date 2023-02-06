@@ -1,6 +1,6 @@
 FROM elixir:1.11.4-alpine
 
-ARG PLEROMA_VER=develop
+ARG PLEROMA_VER=v2.5.0
 ARG UID=911
 ARG GID=911
 ENV MIX_ENV=prod
