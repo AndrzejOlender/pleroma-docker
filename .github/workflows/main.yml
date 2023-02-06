@@ -32,4 +32,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: andrzejolender/pleroma:1.0.3-${{ github.event.number }}
+          tags: andrzejolender/pleroma:1.0.3-${{ github.ref_name }}
