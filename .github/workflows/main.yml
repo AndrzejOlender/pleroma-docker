@@ -32,4 +32,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: andrzejolender/pleroma:v2.5.2
+          tags: andrzejolender/pleroma:v2.5.3
